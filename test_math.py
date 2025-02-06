@@ -1,4 +1,5 @@
 import unittest
+import requests
 from my_math import add  # Załóżmy, że funkcja add jest w pliku my_math.py
 from my_math import find_max  # Importujemy funkcję do testowania
 
@@ -29,3 +30,5 @@ class TestsFunction(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+    
+print(requests.__file__)
